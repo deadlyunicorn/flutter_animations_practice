@@ -1,9 +1,8 @@
-import 'package:animations_practise/page_transition.dart';
+import 'package:animations_practise/hero_animation.dart';
 import 'package:flutter/material.dart';
-// reference: https://codepen.io/mknadler/pen/oYKPpr
 
 void main() {
-  runApp(const MaterialPageWrapper(child: PageTransition()));
+  runApp(const MaterialPageWrapper(child: HeroAnimation()));
 }
 
 class MaterialPageWrapper extends StatelessWidget {
